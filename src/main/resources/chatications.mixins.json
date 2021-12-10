@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.pineypiney.chatications.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [
+    "ChatHudListenerMixin",
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

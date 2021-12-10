@@ -1,0 +1,9 @@
+{
+  "notification": {
+    "subtitle": "subtitles.chatications.notification",
+    "sounds": [
+      "chatications:notification"
+    ]
+  }
+}
+

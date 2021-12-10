@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "chatications",
+  "version": "${version}",
+
+  "name": "Chatications",
+  "description": "A client mod to add chat notification noises",
+  "authors": [
+    "PineyPiney"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/chatications/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.pineypiney.chatications.ChaticationsClient"
+    ]
+  },
+  "mixins": [
+    "chatications.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
