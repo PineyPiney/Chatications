@@ -1,5 +1,5 @@
 # Chatications
-A Minecraft mod to add notifications sounds to the in-game chat
+A Minecraft mod to add notifications sounds to the in-game chat when the game window is not focused
 
 ## Setup
 
