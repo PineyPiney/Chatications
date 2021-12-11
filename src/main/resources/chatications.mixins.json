@@ -5,7 +5,7 @@
   "compatibilityLevel": "JAVA_16",
   "client": [
     "ChatHudListenerMixin",
-    "MinecraftClientMixin"
+    "GameOptionsMixin"
   ],
   "injectors": {
     "defaultRequire": 1
